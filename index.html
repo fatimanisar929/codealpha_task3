@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Portfolio Project</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">Personal Portfolio <span>.</span></a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+
+
+      <ul class="nav__links" id="nav-links">
+        <li class="link"><a href="#home">Home</a></li>
+        <li class="link"><a href="#about">About</a></li>
+        <li class="link"><a href="#resume">Resume</a></li>
+        <li class="link"><a href="#blog">Blog</a></li>
+        <li class="link"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <header class="header" id="home">
+      <div class="section__container header__container">
+        <h4>Hello, I'm Fatima Nisar</h4>
+        <h1>Front End Web Developer</h1>
+        <p class="section__description">
+          I'm a passionate <strong>Front End Web Developer</strong>  and a dedicated BSCS student at Sir Syed CASE Institute of Technology. With a strong foundation in <strong>HTML,CSS, and JavaScript</strong>, I am constantly growing and evolving my skills through internships, mini-level projects, and a deep curiosity about technology.
+        </p>
+        </p>
+        <div class="header__btns">
+          <button class="btn btn__primary" id="download-cv">Download CV</button>
+          <button class="btn btn__secondary">Read More</button>
+        </div>
+      </div>
+    </header>
+
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/about.jpg.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <h4>Let's Introduce About Myself</h4>
+        <p class="section__description">
+          I'm an enthusiastic undergraduate student currently pursuing my BSCS degree with a CGPA of 3.93 in my 4th semester . I am dedicated to honing my expertise in web development, primarily in Front End technologies like HTML, CSS, and JavaScript, with a passion for mastering React.
+    </p></div></br>
+         
+        <p class="section__description">
+          Join me on a journey where creativity meets technology,
+          <span>breaking boundaries</span> and reshaping the digital world.
+        </p>
+       
+
+        <div class="about__progress">
+          <h5>Html, CSS, JS</h5>
+          <div class="about__progressbar" data-progress="95"><span></span></div>
+          <h5>React</h5>
+          <div class="about__progressbar" data-progress="75"><span></span></div>
+          <h5>Figma & Prototyping</h5>
+          <div class="about__progressbar" data-progress="80"><span></span></div>
+          <h5>SQL Queries & Databases</h5>
+          <div class="about__progressbar" data-progress="70"><span></span></div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="service" id="service">
+      <div class="section__container service__container">
+        <h2 class="section__header">What I Do</h2>
+        <p class="section__description">
+          In addition to my front-end skills,  I am currently an intern at Code Alpha, where I am honing my skills further through real-world web
+
+        </p>
+        <div class="service__grid">
+          <div class="service__card">
+            <span><i class="ri-mac-line"></i></span>
+            <div>
+              <h4>Front-End Web Development</h4>
+              <p>
+                Specializing in creating responsive, user-friendly websites using HTML, CSS, JavaScript, and React to deliver fast and dynamic web experiences.
+                
+              </p>
+            </div>
+          </div>
+
+
+          <div class="service__card">
+            <span><i class="ri-quill-pen-fill"></i></span>
+            <div>
+              <h4>UI/UX Design</h4>
+              <p>
+                Combining my front-end skills with design tools like Figma, I create intuitive and engaging user interfaces that prioritize user experience.
+            
+              </p>
+            </div>
+          </div>
+
+
+          <div class="service__card">
+            <span><i class="ri-heart-line"></i></span>
+            <div>
+              <h4>Database Management</h4>
+              <p>
+                Leveraging my knowledge in SQL and databases, I build and maintain robust back-end systems to ensure smooth data flow and integration with the front end.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="service__card">
+            <span><i class="ri-customer-service-fill"></i></span>
+            <div>
+              <h4>C++ , C# Programming</h4>
+              <p>
+                Developing high-performance applications using C++ ,C sharp with a focus on memory management, efficient algorithms, and systems-level programming. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section__container resume__container" id="resume">
+      <h2 class="section__header">My Qualifications</h2>
+      <p class="section__description">
+        My qualifications combine academic knowledge in computer science with hands-on experience in web development, design, and programming.
+     
+      <div class="resume__tabs">
+        <div class="resume__tablist">
+          <button class="btn active" data-tab="1">Education</button>
+          <button class="btn" data-tab="2">Experience</button>
+        </div>
+
+
+        <div class="resume__tabpanel">
+          <div class="panel__grid active" data-panel="1">
+            <div class="panel__card">
+              <span><i class="ri-graduation-cap-fill"></i></span>
+              <h4>Bachelor's Degree in Computer Science (In Progress)</h4>
+              <p class="section__description">Sir Syed CASE Institute of Technology (SSCIT)</p>
+              <p class="section__description">
+                Currently pursuing a Bachelor's degree with a focus on software development, data structures, algorithms, and web technologies.
+              </p>
+            </div>
+
+
+            <div class="panel__card">
+              <span><i class="ri-graduation-cap-fill"></i></span>
+              <h4>Front-End Web Development (Internship)</h4>
+              <p class="section__description">Code Alpha </p>
+              <p class="section__description">
+                Completed an internship focused on developing front-end web applications using React, JavaScript, and database integration.
+              </p>
+            </div>
+
+            <div class="panel__card">
+              <span><i class="ri-graduation-cap-fill"></i></span>
+              <h4>Responsive  Web Designing </h4>
+              <p class="section__description">
+                Building Interactive Interfaces
+              </p>
+              <p class="section__description">
+                Extensive experience in creating dynamic websites with a focus on performance, usability, and responsive design.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="panel__grid" data-panel="2">
+            <div class="panel__card">
+              <span><i class="ri-macbook-fill"></i></span>
+              <h4>Software Development Projects</h4>
+              <p class="section__description">
+                Cafe Management System, Library Management System
+              </p>
+
+              <p class="section__description">
+                Developed management systems using C++ and C#, demonstrating proficiency in both back-end and front-end design.
+              </p>
+            </div>
+
+
+            <div class="panel__card">
+              <span><i class="ri-macbook-fill"></i></span>
+              <h4>Game Development</h4>
+              <p class="section__description">Hangman Game in C#</p>
+              <p class="section__description">
+                Developed an interactive game using C#, enhancing my skills in logic building, user interface, and game mechanics.
+               
+              </p>
+            </div>
+
+
+            <div class="panel__card">
+              <span><i class="ri-macbook-fill"></i></span>
+              <h4>Figma Design Project</h4>
+              <p class="section__description">OmniFood Dieting Plan Project</p>
+              <p class="section__description">
+          Hands on experience in attractive designs for future use using designing tools and softwares. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="banner">
+      <div class="section__container banner__container">
+        <div class="banner__card">
+          <h4>2+</h4>
+          <p>Years of Experience</p>
+        </div>
+        <div class="banner__card">
+          <h4>7+</h4>
+          <p>Completed Projects</p>
+        </div>
+        <div class="banner__card">
+          <h4>5+</h4>
+          <p>Successive Projects</p>
+        </div>
+        <div class="banner__card">
+          <h4>2+</h4>
+          <p>Global Reach</p>
+
+        </div>
+      </div>
+    </section>
+
+    
+
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__grid">
+          <div class="footer__content">
+            <h4>Fatima Nisar</h4>
+            <p>
+              Explore more of my work, connect with me on social media, or drop
+              a message.
+            </p>
+            <p>
+              Let's continue the development conversation and embark on new creative
+              journeys together.
+            </p>
+            <p>Thank you for visiting!</p>
+            <div class="footer__socials">
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+              <a href="#"><i class="ri-linkedin-fill"></i></a>
+            </div>
+          </div>
+          <div class="footer__form">
+            <form action="/">
+              <div class="input__row">
+                <input type="text" placeholder="Your Name" />
+                <input type="text" placeholder="Your Email" />
+              </div>
+              <textarea placeholder="Your Message"></textarea>
+              <button class="btn btn__primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Fatima's Personal Portfolio. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
